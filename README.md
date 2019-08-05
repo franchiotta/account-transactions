@@ -57,11 +57,14 @@ It will create just one transaction for same source and destination account.
 ### Dependencies
 
 - [Spark Framework](http://sparkjava.com/)
+- Hibernate
 - H2 in memory database
 - Cucumber
 - Jackson
 - Junit
 - [Rest-Assured](http://rest-assured.io/)
+
+Optimistic locking feature of hibernate is enabled in order to avoid race conditions on account balances.
 
 ### Setup
 
